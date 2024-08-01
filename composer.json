@@ -3,7 +3,7 @@
     "description": "Custom subtheme for the Digital Latin Library Catalog, based on Bootstrap5.",
     "type": "drupal-custom-theme",
     "license": "GPL-2.0-or-later",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Samuel J. Huskey",
