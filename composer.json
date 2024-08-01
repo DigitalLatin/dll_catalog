@@ -1,0 +1,11 @@
+{
+    "name": "DLL Catalog Theme",
+    "description": "Custom subtheme for the Digital Latin Library Catalog, based on Bootstrap5.",
+    "type": "drupal-custom-theme",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "author": {
+        "name": "Samuel J. Huskey",
+        "email": "samueljhuskey@gmail.com"
+    }
+}

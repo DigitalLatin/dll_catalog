@@ -1,0 +1,41 @@
+{#
+/**
+ * @file
+ * Theme override to display the Browse page.
+ *
+ * /
+#}
+{% extends 'page.html.twig' %}
+    {% block content %}
+    {% if page.content %}
+	    <div class="page__content">
+            <h1>
+                <span class="field field--name-title field--type-string field--label-hidden">{{ drupal_field('title', 'node', 32268) }}</span>
+            </h1>
+            
+            {# Render the Node Body #}
+            {{ drupal_field('body', 'node', 32268) }}
+
+            <div class="container">
+                <div class="row">
+                    <div class="leaf author col-sm-5">
+                        <a href="/dll-author">Author Authorities</a>
+                    </div>
+                    <div class="leaf work col-sm-5">
+
+                        <a href="/dll-work">Work Authorities</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="leaf item-record col-sm-5">
+                        <a href="/dll-item-record">Item Records</a>
+                    </div>
+                    <div class="leaf webpage col-sm-5">
+                        <a href="/dll-web-page">Web Pages</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    {% endblock %}
+
