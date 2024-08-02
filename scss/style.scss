@@ -275,8 +275,8 @@ table {
 #views-exposed-form-browse-dll-work-records-browse-works .form--inline .form-item.form-type-search-api-autocomplete,
 #views-exposed-form-browse-item-records-browse-item-records .form--inline .form-item.form-type-search-api-autocomplete,
 #views-exposed-form-browse-web-pages-browse-web-pages .form--inline .form-item.form-type-search-api-autocomplete {
-    float: none;
-    width: 75%;
+    float: left;
+    width: max-content;
     text-align: left;
 }
 
