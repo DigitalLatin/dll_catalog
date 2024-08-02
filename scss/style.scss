@@ -569,15 +569,7 @@ article.node--view-mode-teaser {
     margin-bottom: 1.5rem;
 }
 
-.view-id-updates ul > li:first-child {
-    margin-top: 2.5rem;
-}
-
-.view-id-updates .views-row {
-    padding: 1rem;
-}
-
-.view-id-updates .views-row:nth-of-type(odd) {
+.view-id-updates .list-group-item:nth-of-type(odd) {
     background-color: #F6F7F8;
 }
 /* ======================================================================== 
