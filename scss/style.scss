@@ -292,7 +292,7 @@ table {
     margin-bottom: 1rem;
 }
 
-// Styles for item record browse view
+// Styles for item record and web page browse view
 .view-browse-item-records .views-label,
 .view-browse-web-pages .views-label {
     font-weight: bold;
@@ -563,14 +563,22 @@ h4 {
     font-style: italic;
 }
 
+// Formatting for update page
 article.node--view-mode-teaser {
-    border: thin solid grey;
     padding: 2rem;
     margin-bottom: 1.5rem;
 }
 
 .view-id-updates ul > li:first-child {
     margin-top: 2.5rem;
+}
+
+.view-id-updates .views-row {
+    padding: 1rem;
+}
+
+.view-id-updates .views-row:nth-of-type(odd) {
+    background-color: #F6F7F8;
 }
 /* ======================================================================== 
     Search page
