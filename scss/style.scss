@@ -408,14 +408,6 @@ div.leaf a {
     margin-top: 1.5rem;
 }
 
-// Set the color for all headings
-h1,
-h2,
-h3,
-h4 {
-    color:#A33701;
-}
-
 // Add some space around the title
 #author-authority-title,
 #dll-work-title,
@@ -646,6 +638,18 @@ article.node--view-mode-teaser {
 body {
   font-family: "Noto Sans", sans-serif;
 }
+
+// Set the color and font-family for all headings
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color:#A33701;
+    font-family: "Freeman", sans-serif;
+}
+
+
 .node-created {
     font-style: italic; 
 }
