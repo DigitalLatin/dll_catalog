@@ -280,19 +280,11 @@ table {
     text-align: left;
 }
 
-// Set the color of the search button when it is the only one
-#views-exposed-form-browse-authors-browse-authors .btn:only-child,
-#views-exposed-form-browse-dll-work-records-browse-works .btn:only-child,
-#views-exposed-form-browse-item-records-browse-item-records .btn:only-child,
-#views-exposed-form-browse-web-pages-browse-web-pages .btn:only-child {
-    background-color: #A33701;
-}
-
 // Change the color of the reset button
-#views-exposed-form-browse-authors-browse-authors .btn:last-child,
-#views-exposed-form-browse-dll-work-records-browse-works .btn:last-child,
-#views-exposed-form-browse-item-records-browse-item-records .btn:last-child,
-#views-exposed-form-browse-web-pages-browse-web-pages .btn:last-child {
+#views-exposed-form-browse-authors-browse-authors .btn:nth-of-type(2),
+#views-exposed-form-browse-dll-work-records-browse-works .btn:nth-of-type(2),
+#views-exposed-form-browse-item-records-browse-item-records .btn:nth-of-type(2),
+#views-exposed-form-browse-web-pages-browse-web-pages .btn:nth-of-type(2) {
     background-color: grey;
 }
 
