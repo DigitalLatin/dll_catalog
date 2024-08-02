@@ -642,6 +642,10 @@ article.node--view-mode-teaser {
     Typography
    ======================================================================== */
 
+//Set the font family site-wide
+body {
+  font-family: "Noto Sans", sans-serif;
+}
 .node-created {
     font-style: italic; 
 }
