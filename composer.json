@@ -1,5 +1,5 @@
 {
-    "name": "digitallatin/dll-catalog",
+    "name": "digitallatin/dll_catalog",
     "description": "Custom subtheme for the Digital Latin Library Catalog, based on Bootstrap5.",
     "type": "drupal-custom-theme",
     "license": "GPL-2.0-or-later",
