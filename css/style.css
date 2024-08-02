@@ -13082,14 +13082,6 @@ table {
   background-color: grey;
 }
 
-#views-exposed-form-browse-authors-browse-authors .form--inline .form-item.form-type-search-api-autocomplete,
-#views-exposed-form-browse-dll-work-records-browse-works .form--inline .form-item.form-type-search-api-autocomplete,
-#views-exposed-form-browse-item-records-browse-item-records .form--inline .form-item.form-type-search-api-autocomplete,
-#views-exposed-form-browse-web-pages-browse-web-pages .form--inline .form-item.form-type-search-api-autocomplete {
-  text-align: left;
-  width: 75%;
-}
-
 .browse .views-row {
   margin-bottom: 1rem;
 }
