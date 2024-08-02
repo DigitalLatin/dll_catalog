@@ -240,10 +240,10 @@ table {
 }
 
 // Move the buttons to the side of the search form
-#views-exposed-form-browse-authors-browse-authors .form--inline .form-item.form-type-search-api-autocomplete,
-#views-exposed-form-browse-dll-work-records-browse-works .form--inline .form-item.form-type-search-api-autocomplete,
-#views-exposed-form-browse-item-records-browse-item-records .form--inline .form-item.form-type-search-api-autocomplete,
-#views-exposed-form-browse-web-pages-browse-web-pages .form--inline .form-item.form-type-search-api-autocomplete {
+#views-exposed-form-browse-authors-browse-authors .form--inline .form-actions,
+#views-exposed-form-browse-dll-work-records-browse-works .form--inline .form-actions,
+#views-exposed-form-browse-item-records-browse-item-records .form--inline .form-actions,
+#views-exposed-form-browse-web-pages-browse-web-pages .form--inline .form-actions {
     @media (min-width: 992px) {
         float: right;
         clear: none;
@@ -268,6 +268,16 @@ table {
 #views-exposed-form-browse-item-records-browse-item-records #edit-search-api-fulltext--2--description,
 #views-exposed-form-browse-web-pages-browse-web-pages #edit-search-api-fulltext--2--description {
     margin-top: 0.5rem;
+}
+
+// Float the search button
+#views-exposed-form-browse-authors-browse-authors .form--inline .form-item.form-type-search-api-autocomplete,
+#views-exposed-form-browse-dll-work-records-browse-works .form--inline .form-item.form-type-search-api-autocomplete,
+#views-exposed-form-browse-item-records-browse-item-records .form--inline .form-item.form-type-search-api-autocomplete,
+#views-exposed-form-browse-web-pages-browse-web-pages .form--inline .form-item.form-type-search-api-autocomplete {
+    float: none;
+    width: 75%;
+    text-align: left;
 }
 
 // Change the color of the reset button
